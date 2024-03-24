@@ -9,7 +9,6 @@ import sys
 import time
 
 portList = set()
-sock = socket.socket()
 
 
 def dump_to_file():
