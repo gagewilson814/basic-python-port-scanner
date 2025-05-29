@@ -21,6 +21,9 @@ This is a simple command-line port scanner written in Python. It was created as 
 ```bash
 python3 scanner.py <target-ip> [<start-port> <end-port>]
 ```
-🛠️ Limitations
+## Limitations
 - Not multi-threaded — can be slow for wide port ranges
 - Timeout is set very low for speed and may result in missed ports on slower networks
+
+## Potential future improvments
+- Expand to be multi-threaded
